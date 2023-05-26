@@ -1,0 +1,71 @@
+body {
+
+    background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.container {
+    width: 748px;
+    height: 748px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 22px;
+    gap: 9px;
+}
+
+.item {
+    background-color: gainsboro;
+}
+
+.red {
+    background-color: red;
+}
+
+.white1 {
+    grid-column: span 3;
+
+}
+
+.white2 {
+    grid-row: span 2;
+
+}
+
+.white3 {
+    grid-area: 2/2/4/4;
+
+}
+
+.blue {
+    background-color: darkblue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+footer {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px 40px 10px 40px;
+    padding: 5px;
+    text-align: center;
+}
